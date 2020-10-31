@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1030px;
+    margin: 0 auto;
+}
+
+/* header-top */
+
+.header-top {
+    background: #9E5BBA;
+    border-bottom: 1px solid red;
+}
+
+.header-top p {
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.year-language {
+    float: right;
+    padding-top: 8px;
+}
+
+.year-language span {
+    color: #fff;
+    padding-right: 20px;
+    border-right: 1px solid #fff;
+    font-size: 16px;
+}
+
+.year-language a {
+    color: #fff;
+    padding: 20px 20px;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* header menu CSS */
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    height: 50px;
+    width: 190px;
+    margin: 5px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    border-right: 1px solid red;
+}
+
+.menu li:last-child {
+    border-right: 0px solid red;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 25px;
+    display: inline-block;
+    background: green;
+    color: #fff;
+    transition: .5s;
+
+
+}
+
+.menu li a:hover {
+    background: red;
+    transition: .5s;
+    color: blue;
+}
